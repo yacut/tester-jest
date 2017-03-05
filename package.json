@@ -39,6 +39,16 @@
         "type": "string"
       }
     },
+    "args": {
+      "title": "List of additional args to run Jest.",
+      "type": "array",
+      "default": [
+        "--color=true"
+      ],
+      "items": {
+        "type": "string"
+      }
+    },
     "binaryPath": {
       "title": "Path to the jest binary",
       "description": "Optionally specify the path to the jest binary",
