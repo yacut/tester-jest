@@ -29,7 +29,11 @@
       "type": "array",
       "default": [
         "**/__tests__/**/*.js?(x)",
-        "**/?(*.)(spec|test).js?(x)"
+        "**/__tests__/**/*.jsx",
+        "**/*test.js",
+        "**/*test.jsx",
+        "**/*spec.js",
+        "**/*spec.jsx"
       ],
       "items": {
         "type": "string"
