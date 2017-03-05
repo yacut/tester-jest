@@ -2,7 +2,7 @@
   "name": "tester-jest",
   "main": "./lib/tester-jest",
   "author": "yacut",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "The package is in the development state.",
   "keywords": [
     "test",
