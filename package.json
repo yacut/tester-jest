@@ -28,8 +28,8 @@
       "title": "List of scopes to run Jest on.",
       "type": "array",
       "default": [
-        "*/__tests__/*",
-        "*.test.(ts|tsx|js)"
+        "**/__tests__/**/*.js?(x)",
+        "**/?(*.)(spec|test).js?(x)"
       ],
       "items": {
         "type": "string"
