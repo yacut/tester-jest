@@ -28,7 +28,7 @@
       "title": "List of scopes to run Jest on.",
       "type": "array",
       "default": [
-        "**/__tests__/**/*.js?(x)",
+        "**/__tests__/**/*.js",
         "**/__tests__/**/*.jsx",
         "**/*test.js",
         "**/*test.jsx",
