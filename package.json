@@ -1,0 +1,62 @@
+{
+  "name": "tester-jest",
+  "main": "./lib/tester-jest",
+  "author": "yacut",
+  "version": "0.0.0",
+  "description": "The package is in the development state.",
+  "keywords": [
+    "test",
+    "tester",
+    "testing",
+    "interactive",
+    "jest",
+    "wallaby.js"
+  ],
+  "repository": "https://github.com/yacut/tester-jest",
+  "bugs": {
+    "url": "https://github.com/yacut/tester-jest/issues"
+  },
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "scripts": {
+    "test": "(apm test) && (flow check) && (eslint . )"
+  },
+  "configSchema": {
+    "scopes": {
+      "title": "List of scopes to run Jest on.",
+      "type": "array",
+      "default": [
+        "/__tests__/*",
+        "*\\.(test|spec))\\.(ts|tsx|js)$"
+      ],
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "dependencies": {
+    "atom-package-deps": "^4.4.1",
+    "error-stack-parser": "^2.0.0",
+    "jest": "^19.0.2",
+    "jest-editor-support": "^19.0.2",
+    "lodash": "^4.17.4"
+  },
+  "package-deps": [
+    "tester"
+  ],
+  "providedServices": {
+    "tester": {
+      "versions": {
+        "1.0.0": "provideTester"
+      }
+    }
+  },
+  "devDependencies": {
+    "babel-eslint": "^6.1.2",
+    "eslint": "^3.16.1",
+    "eslint-config-airbnb-base": "^11.1.0",
+    "eslint-plugin-import": "^2.2.0"
+  }
+}
