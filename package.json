@@ -3,7 +3,7 @@
   "main": "./lib/tester-jest",
   "author": "yacut",
   "version": "0.1.1",
-  "description": "The package is in the development state.",
+  "description": "Jest test runner provider for the interactive tester",
   "keywords": [
     "test",
     "tester",
@@ -64,9 +64,7 @@
   },
   "dependencies": {
     "atom-package-deps": "^4.4.1",
-    "error-stack-parser": "^2.0.0",
     "jest": "^19.0.2",
-    "jest-editor-support": "^19.0.2",
     "lodash": "^4.17.4"
   },
   "package-deps": [
