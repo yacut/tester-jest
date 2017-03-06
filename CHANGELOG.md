@@ -15,3 +15,6 @@
 
 ## 0.1.4
 * Add scope for typescript
+
+## 0.1.5
+* Fix modified files behavior
