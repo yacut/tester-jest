@@ -9,3 +9,6 @@
 
 ## 0.1.2
 * Add documentation
+
+## 0.1.3
+* Fix preview gif
