@@ -12,3 +12,6 @@
 
 ## 0.1.3
 * Fix preview gif
+
+## 0.1.4
+* Add scope for typescript
