@@ -23,3 +23,4 @@ $ apm install tester-jest
 
 - jest ops support
 - tests with 'use babel' wrong locate test
+- rewrite parser with [jest-editor-support](https://www.npmjs.com/package/jest-editor-support) - [more info here](https://github.com/orta/vscode-jest/)
