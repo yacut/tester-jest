@@ -3,3 +3,9 @@
 
 ## 0.1.0 - First Funktional Release
 * Provide mocha tester for [tester](https://github.com/yacut/tester)
+
+## 0.1.1
+* Fix scopes
+
+## 0.1.2
+* Add documentation
