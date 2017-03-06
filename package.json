@@ -84,21 +84,17 @@
     "eslint-plugin-import": "^2.2.0"
   },
   "jest": {
-    "testRegex": "\\.spec\\.(ts|tsx|js|jsx)$",
+    "testRegex": "\\.spec\\.(js|jsx)$",
     "moduleFileExtensions": [
-      "ts",
-      "tsx",
       "js",
       "jsx"
     ],
     "testPathIgnorePatterns": [
-      "/node_modules/",
-      "/out/"
+      "/node_modules/"
     ],
     "collectCoverageFrom": [
-      "src/**/*.{js,jsx,ts,tsx}",
-      "!**/node_modules/**",
-      "!**/out/**"
+      "lib/**/*.{js,jsx,ts,tsx}",
+      "!**/node_modules/**"
     ]
   }
 }
