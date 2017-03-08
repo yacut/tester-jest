@@ -18,3 +18,6 @@
 
 ## 0.1.5
 * Fix modified files behavior
+
+## 0.1.6
+* Fix jest binary path
