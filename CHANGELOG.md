@@ -24,3 +24,6 @@
 
 ## 0.1.7
 * add stop functionality
+
+## 0.1.8
+* fix skipped test state
