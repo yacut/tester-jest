@@ -21,3 +21,6 @@
 
 ## 0.1.6
 * Fix jest binary path
+
+## 0.1.7
+* add stop functionality
