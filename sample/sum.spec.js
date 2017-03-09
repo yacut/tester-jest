@@ -8,3 +8,7 @@ test('adds 1 + 2 to equal 3?', () => {
 test('should return console log text and shows strings diff', () => {
   assert.equal('stringA', 'stringB');
 });
+
+test.skip('should skip this test', () => {
+  // whatever
+});
