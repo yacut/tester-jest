@@ -24,3 +24,8 @@ $ apm install tester-jest
 - jest ops support
 - tests with 'use babel' wrong locate test
 - rewrite parser with [acorn](https://github.com/ternjs/acorn) or  [jest-editor-support](https://www.npmjs.com/package/jest-editor-support) - [more info here](https://github.com/orta/vscode-jest/)
+
+### Known issues
+
+##### Problem: Jest failed with error "SyntaxError: Unexpected token import"
+  Solution: `rm -rf $TMPDIR/jest*`
