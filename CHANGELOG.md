@@ -27,3 +27,6 @@
 
 ## 0.1.8
 * fix skipped test state
+
+## 0.1.9
+* fix command line args
