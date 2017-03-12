@@ -30,3 +30,6 @@
 
 ## 0.1.9
 * fix command line args
+
+## 0.1.10
+* remove "bad" args from command

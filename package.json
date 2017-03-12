@@ -46,7 +46,7 @@
       }
     },
     "args": {
-      "title": "List of additional args to run Jest.",
+      "title": "List of additional args to run Jest. Forbidden: '--json', '--outputFile', '--watch', '--watchAll', '--watchman'.",
       "type": "array",
       "default": [
         "--color=true"
