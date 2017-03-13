@@ -1,6 +1,4 @@
-const assert = require('assert');
-
-test('strings are equals', (done) => {
-  assert.equal('stringA', 'stringA');
-  setTimeout(done, 100000000);
+test('timeout is occured', (done) => {
+  expect('stringA').toBe('stringA');
+  setTimeout(done, 10000);
 });
