@@ -33,3 +33,6 @@
 
 ## 0.1.10
 * remove "bad" args from command
+
+## 0.1.11
+* fix [issue with NODE_ENV and babel-jest](https://github.com/yacut/tester-jest/issues/1)
