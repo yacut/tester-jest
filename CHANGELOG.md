@@ -36,3 +36,6 @@
 
 ## 0.1.11
 * fix [issue with NODE_ENV and babel-jest](https://github.com/yacut/tester-jest/issues/1)
+
+## 0.2.0
+* add test error messages to results for inline tester messages
