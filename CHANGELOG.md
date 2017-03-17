@@ -39,3 +39,6 @@
 
 ## 0.2.0
 * add test error messages to results for inline tester messages
+
+## 0.2.1
+* fix NODE_PATH 
