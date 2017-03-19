@@ -1,4 +1,3 @@
-test('timeout occurred', (done) => {
+test('string are equals', () => {
   expect('stringA').toBe('stringA');
-  setTimeout(done, 10000);
 });
