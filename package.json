@@ -77,6 +77,12 @@
         "development",
         "production"
       ]
+    },
+    "jestMajorVersion": {
+      "title": "Local Jest Major Version",
+      "description": "Optionally set the Jest version",
+      "type": "number",
+      "default": 19
     }
   },
   "dependencies": {
