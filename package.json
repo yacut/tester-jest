@@ -57,7 +57,7 @@
     },
     "binaryPath": {
       "title": "Path to the jest binary",
-      "description": "Optionally specify the path to the jest binary",
+      "description": "Optionally specify the path to the jest binary. You can use `npm test --` if you use react-scripts for testing.",
       "type": "string",
       "default": ""
     },

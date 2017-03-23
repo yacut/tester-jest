@@ -41,4 +41,7 @@
 * add test error messages to results for inline tester messages
 
 ## 0.2.1
-* fix NODE_PATH 
+* fix NODE_PATH
+
+## 0.2.2
+* add support for react-scripts
