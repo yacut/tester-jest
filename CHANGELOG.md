@@ -1,3 +1,6 @@
+## 0.3.1
+* fix error messages
+
 ## 0.3.0
 * remove 'test on change' feature
 
