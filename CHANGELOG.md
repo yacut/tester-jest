@@ -1,3 +1,7 @@
+## 0.4.0
+* add unknown status for tests
+* rewrite parser with acorn
+
 ## 0.3.1
 * fix error messages
 

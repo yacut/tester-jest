@@ -21,7 +21,7 @@ $ apm install tester-jest
 
 ### TODO
 
-- rewrite parser with [acorn](https://github.com/ternjs/acorn)
+- ~~rewrite parser with [acorn](https://github.com/ternjs/acorn)~~
 
 ### Contribute
 
