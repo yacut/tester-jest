@@ -90,8 +90,8 @@
     }
   },
   "dependencies": {
-    "acorn": "^5.0.0",
     "atom-package-deps": "^4.4.1",
+    "babylon": "^6.16.1",
     "jest": "^19.0.2",
     "lodash": "^4.17.4"
   },
