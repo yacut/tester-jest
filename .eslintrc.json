@@ -29,7 +29,7 @@
       "no-param-reassign": 0,
       "no-confusing-arrow": 0,
       "global-require": 0,
-      "max-len": ["error", 120],
-      "no-console": ["error", { "allow": ["warn", "error"] }]
+      "max-len": [2, 120],
+      "no-console": [1, { "allow": ["warn", "error"] }]
     }
 }
