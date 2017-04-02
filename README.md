@@ -19,10 +19,6 @@ You can install through the CLI by doing:
 $ apm install tester-jest
 ```
 
-### TODO
-
-- ~~rewrite parser with [acorn](https://github.com/ternjs/acorn)~~
-
 ### Contribute
 
 Stick to imposed codestyle:
