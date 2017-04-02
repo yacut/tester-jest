@@ -1,6 +1,7 @@
 ## 0.4.0
 * add unknown status for tests
-* rewrite parser with acorn
+* rewrite parser with babylon
+* send unknown error if jest process failed  
 
 ## 0.3.1
 * fix error messages
