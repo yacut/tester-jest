@@ -95,7 +95,7 @@
   },
   "dependencies": {
     "atom-package-deps": "^4.4.1",
-    "jest-editor-support": "19.0.2",
+    "jest-editor-support": "^19.0.2",
     "jest-test-typescript-parser": "19.0.2",
     "lodash": "^4.17.4"
   },
