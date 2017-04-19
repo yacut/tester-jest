@@ -27,7 +27,7 @@ describe('tester-jest', () => {
   it('should provide test function and call "spawn-runner.run" if editor is not empty', () => {
     spyOn(jestRunner, 'run').andCallFake(() => Promise.resolve({ messages: [], output: '' }));
     const result = provideTester().test(textEditor);
-    expect(jestRunner.run).toHaveBeenCalledWith(textEditor);
+    expect(jestRunner.run).toHaveBeenCalledWith(textEditor, undefined);
     expect(result).toEqual(Promise.resolve({ messages: [], output: '' }));
   });
 
