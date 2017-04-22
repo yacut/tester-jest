@@ -44,16 +44,16 @@ describe('spawn-runner', () => {
   });
 
   describe('getMessagesFromAssertionResults', () => {
-    it('should return promise with tester messages', () => {
-      expect(getMessagesFromAssertionResults(textEditor, assertionResults, 0))
-        .toEqual(Promise.resolve([getFormattedTesterMessage('failed', 'test', 'Error', 0, 0, pathToFile)]));
+    it('should return promise with tester messages', async () => {
+      expect(await getMessagesFromAssertionResults(textEditor, assertionResults, 0))
+        .toEqual([getFormattedTesterMessage('failed', 'test', 'Error', 0, 0, pathToFile)]);
     });
   });
 
   describe('getMessagesFromTestLocations', () => {
-    it('should return promise with tester messages', () => {
-      expect(getMessagesFromTestLocations(textEditor, testLocations, assertionResults, 0))
-        .toEqual(Promise.resolve([getFormattedTesterMessage('failed', 'test', 'Error', 0, 0, pathToFile)]));
+    it('should return promise with tester messages', async () => {
+      expect(await getMessagesFromTestLocations(textEditor, testLocations, assertionResults, 0))
+        .toEqual([getFormattedTesterMessage('failed', 'test', 'Error', 0, 0, pathToFile)]);
     });
   });
 });
