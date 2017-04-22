@@ -15,8 +15,7 @@ export const assertionResults = [{
 
 export const testLocations = [{
   file: pathToFile,
-  name: 'name',
-  title: 'title',
+  name: 'test',
   start: {
     line: 1,
     column: 0,
