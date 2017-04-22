@@ -1,8 +1,9 @@
 'use babel';
 
 /* @flow */
+import Promise from 'bluebird';
 import * as jestRunner from '../lib/spawn-runner';
-import { emptyTextEditor, textEditor } from './fixtures';
+import { textEditor } from './fixtures';
 import { provideTester } from '../lib/tester-jest';
 
 describe('tester-jest', () => {
@@ -16,12 +17,11 @@ describe('tester-jest', () => {
     expect(provideTester().scopes).toEqual(scopes);
   });
 
-  it('should provide test function and return empty messages/output if editor is empty', () => {
-    expect(provideTester().test()).toEqual(Promise.resolve({ messages: [], output: '' }));
-  });
-
-  it('should provide test function and return empty message/output if editor has not text', () => {
-    expect(provideTester().test(emptyTextEditor)).toEqual(Promise.resolve({ messages: [], output: '' }));
+  it('should provide test function and run project test if editor is empty', () => {
+    spyOn(jestRunner, 'run').andCallFake(() => Promise.resolve({ messages: [], output: '' }));
+    const result = provideTester().test();
+    expect(jestRunner.run).toHaveBeenCalledWith(undefined, undefined);
+    expect(result).toEqual(Promise.resolve({ messages: [], output: '' }));
   });
 
   it('should provide test function and call "spawn-runner.run" if editor is not empty', () => {

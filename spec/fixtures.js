@@ -8,7 +8,7 @@ export const pathToFile = join(homedir(), 'some/file');
 
 export const assertionResults = [{
   name: 'name',
-  state: 'failed',
+  status: 'failed',
   title: 'test',
   failureMessages: ['Error'],
 }];
@@ -16,12 +16,13 @@ export const assertionResults = [{
 export const testLocations = [{
   file: pathToFile,
   name: 'name',
+  title: 'title',
   start: {
-    line: 0,
+    line: 1,
     column: 0,
   },
   end: {
-    line: 0,
+    line: 1,
     column: 0,
   },
 }];

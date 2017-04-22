@@ -349,6 +349,10 @@ bcrypt-pbkdf@^1.0.0:
   dependencies:
     tweetnacl "^0.14.3"
 
+bluebird@^3.5.0:
+  version "3.5.0"
+  resolved "https://registry.yarnpkg.com/bluebird/-/bluebird-3.5.0.tgz#791420d7f551eea2897453a8a77653f96606d67c"
+
 boom@2.x.x:
   version "2.10.1"
   resolved "https://registry.yarnpkg.com/boom/-/boom-2.10.1.tgz#39c8918ceff5799f83f9492a848f625add0c766f"
@@ -1520,7 +1524,7 @@ jest-diff@^19.0.0:
     jest-matcher-utils "^19.0.0"
     pretty-format "^19.0.0"
 
-jest-editor-support@19.0.2, jest-editor-support@^19.0.2:
+jest-editor-support@^19.0.2:
   version "19.0.2"
   resolved "https://registry.yarnpkg.com/jest-editor-support/-/jest-editor-support-19.0.2.tgz#b63a1f8aea0a29fb149dc90ac85cf2e811f596af"
   dependencies:
@@ -1819,7 +1823,7 @@ lodash.uniq@^4.5.0:
   version "4.5.0"
   resolved "https://registry.yarnpkg.com/lodash.uniq/-/lodash.uniq-4.5.0.tgz#d0225373aeb652adc1bc82e4945339a842754773"
 
-lodash@^4.0.0, lodash@^4.14.0, lodash@^4.15.0, lodash@^4.17.4, lodash@^4.2.0, lodash@^4.3.0:
+lodash@^4.0.0, lodash@^4.14.0, lodash@^4.15.0, lodash@^4.2.0, lodash@^4.3.0:
   version "4.17.4"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.4.tgz#78203a4d1c328ae1d86dca6460e369b57f4055ae"
 

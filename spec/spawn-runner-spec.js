@@ -2,8 +2,9 @@
 
 /* @flow */
 
+import Promise from 'bluebird';
 import {
-  formatJestError,
+  getJestError,
   getFormattedTesterMessage,
   getMessagesFromAssertionResults,
   getMessagesFromTestLocations,
@@ -18,8 +19,10 @@ describe('spawn-runner', () => {
     '    at Object.<anonymous> (/github/tester-jest/node_modules/jest-jasmine2/build/jasmine-async.js:42:32)\n' +
     '    at runTest (/github/tester-jest/node_modules/jest-cli/build/runTest.js:53:10)\n' +
     '    at promise.then (/github/tester-jest/node_modules/jest-cli/build/TestRunner.js:307:14)';
+      const assertionResult = Object.assign({}, assertionResults[0]);
+      assertionResult.failureMessages = [jestError];
       const formatedJestError = 'expect(received).toEqual(expected)\n\nExpected value to equal:\n  2\nReceived:\n  3';
-      expect(formatJestError(jestError)).toEqual(formatedJestError);
+      expect(getJestError(assertionResult)).toEqual(formatedJestError);
     });
   });
 
