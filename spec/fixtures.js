@@ -13,6 +13,18 @@ export const assertionResults = [{
   failureMessages: ['Error'],
 }];
 
+export const testResults = [
+  {
+    assertionResults,
+    endTime: 1492939947235,
+    message: '',
+    name: pathToFile,
+    startTime: 1492939947071,
+    status: 'failed',
+    summary: '',
+  },
+];
+
 export const testLocations = [{
   file: pathToFile,
   name: 'test',
