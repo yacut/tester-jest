@@ -8,10 +8,17 @@ import {
   getMessagesFromAssertionResults,
   getMessagesFromTestLocations,
   getMessagesFromTestResults,
+  removeBadArgs,
 } from '../lib/spawn-runner';
 import { textEditor, pathToFile, assertionResults, testLocations, testResults } from './fixtures';
 
 describe('spawn-runner', () => {
+  describe('removeBadArgs', () => {
+    it('should return clear array with args', () => {
+      expect(removeBadArgs(['--my-arg', '--watch'])).toEqual(['--my-arg']);
+    });
+  });
+
   describe('formatJestError', () => {
     it('should format jest error', () => {
       const jestError = 'Error: expect(received).toEqual(expected)\n\nExpected value to equal:\n  2\nReceived:\n  3\n' +
