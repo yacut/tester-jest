@@ -2,7 +2,6 @@
 
 /* @flow */
 
-import Promise from 'bluebird';
 import {
   getJestError,
   getFormattedTesterMessage,
