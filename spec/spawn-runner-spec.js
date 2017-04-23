@@ -60,7 +60,10 @@ describe('spawn-runner', () => {
   describe('getMessagesFromTestResults', () => {
     it('should return promise with tester messages', async () => {
       expect(await getMessagesFromTestResults(testResults))
-        .toEqual([getFormattedTesterMessage('failed', 'test', 'Error', 0, 0, pathToFile)]);
+        .toEqual([
+          getFormattedTesterMessage('failed', 'test', 'Error', 0, 0, pathToFile),
+          getFormattedTesterMessage('failed', 'test', 'Error', 0, 0, pathToFile),
+        ]);
     });
   });
 });
