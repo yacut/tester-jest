@@ -1,3 +1,7 @@
+## 1.0.0
+* add support for project test
+* various bug fixes :bug:
+
 ## 0.4.0
 * add unknown status for tests
 * rewrite parser with babylon
