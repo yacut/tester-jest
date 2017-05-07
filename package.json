@@ -69,12 +69,6 @@
       "type": "string",
       "default": ""
     },
-    "configPath": {
-      "title": "Path to the jest config",
-      "description": "Optionally specify the path to the jest config",
-      "type": "string",
-      "default": ""
-    },
     "nodeEnv": {
       "title": "NODE_ENV",
       "description": "The NODE_ENV variable for jest process",

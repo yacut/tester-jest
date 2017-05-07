@@ -1,3 +1,6 @@
+## 1.0.2
+* remove unused `jest config path` setting
+
 ## 1.0.1
 * :arrow_up: update dependencies
 
