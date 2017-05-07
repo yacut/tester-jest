@@ -96,8 +96,8 @@
   "dependencies": {
     "atom-package-deps": "4.6.0",
     "bluebird": "3.5.0",
-    "jest-editor-support": "19.0.2",
-    "jest-test-typescript-parser": "19.0.2"
+    "jest-editor-support": "20.0.0",
+    "jest-test-typescript-parser": "20.0.0"
   },
   "package-deps": [
     "tester"
@@ -116,8 +116,8 @@
     "eslint-plugin-flowtype": "2.32.1",
     "eslint-plugin-import": "2.2.0",
     "eslint-plugin-jsx-a11y": "4.0.0",
-    "eslint-plugin-react": "6.10.3",
-    "jest": "19.0.2"
+    "eslint-plugin-react": "7.0.0",
+    "jest": "20.0.0"
   },
   "jest": {
     "testRegex": "\\.spec\\.(js|jsx)$",

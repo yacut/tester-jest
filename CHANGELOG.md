@@ -1,3 +1,6 @@
+## 1.0.1
+* :arrow_up: update dependencies
+
 ## 1.0.0
 * add support for project test
 * various bug fixes :bug:
