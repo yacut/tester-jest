@@ -1,3 +1,6 @@
+## 1.0.3
+* fix `npm test --` feature
+
 ## 1.0.2
 * remove unused `jest config path` setting
 
