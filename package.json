@@ -85,6 +85,11 @@
       "description": "Optionally set the Jest version",
       "type": "number",
       "default": 19
+    },
+    "ciEnv": {
+      "title": "CI environment for own commands in create-react",
+      "type": "boolean",
+      "default": false
     }
   },
   "dependencies": {

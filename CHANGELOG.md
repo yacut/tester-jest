@@ -1,3 +1,6 @@
+## 1.0.4
+* :bug: fix https://github.com/yacut/tester-jest/issues/9
+
 ## 1.0.3
 * fix `npm test --` feature
 
