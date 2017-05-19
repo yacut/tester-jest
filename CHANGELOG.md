@@ -1,3 +1,7 @@
+## 1.1.1
+* :bug: fix resolve for jest binary path
+* :bug: fix multiple dialogs on snapshot update #10
+
 ## 1.1.0
 * :gift: add `update snapshot` dialog
 
