@@ -1,3 +1,6 @@
+## 1.1.0
+* :gift: add `update snapshot` dialog
+
 ## 1.0.4
 * :bug: fix https://github.com/yacut/tester-jest/issues/9
 
