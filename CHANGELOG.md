@@ -1,3 +1,6 @@
+## 1.1.2
+* :bug: can't match any file in windows #11
+
 ## 1.1.1
 * :bug: fix resolve for jest binary path
 * :bug: fix multiple dialogs on snapshot update #10
