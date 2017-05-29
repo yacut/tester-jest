@@ -78,7 +78,7 @@ describe('spawn-runner', () => {
   describe('convertPathToPattern', () => {
     it('should return pattern with unix path', () => {
       const path = '/path/to/spec/some.spec.js';
-      const pattern = convertPathToPattern(path);
+      const pattern = convertPathToPattern(path, 'unix');
       expect((new RegExp(pattern)).test(path)).toBe(true);
     });
 
