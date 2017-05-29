@@ -84,7 +84,7 @@ describe('spawn-runner', () => {
 
     it('should return pattern with windows path', () => {
       const path = 'C:\\path\\to\\spec\\some.spec.js';
-      const pattern = convertPathToPattern(path);
+      const pattern = convertPathToPattern(path, 'win32');
       expect((new RegExp(pattern)).test(path)).toBe(true);
     });
   });
