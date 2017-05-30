@@ -1,3 +1,6 @@
+## 1.1.3
+* :bug: escape characters in windows path #12
+
 ## 1.1.2
 * :bug: can't match any file in windows #11
 
