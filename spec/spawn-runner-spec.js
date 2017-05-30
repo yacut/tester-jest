@@ -9,6 +9,7 @@ import {
   getMessagesFromTestLocations,
   getMessagesFromTestResults,
   removeBadArgs,
+  convertPathToPattern,
 } from '../lib/spawn-runner';
 import { textEditor, pathToFile, assertionResults, testLocations, testResults } from './fixtures';
 
@@ -71,6 +72,20 @@ describe('spawn-runner', () => {
           getFormattedTesterMessage('failed', 'test', 'Error', 0, 0, pathToFile),
           getFormattedTesterMessage('failed', 'test', 'Error', 0, 0, pathToFile),
         ]);
+    });
+  });
+
+  describe('convertPathToPattern', () => {
+    it('should return pattern with unix path', () => {
+      const path = '/path/to/spec/some.spec.js';
+      const pattern = convertPathToPattern(path, 'unix');
+      expect((new RegExp(pattern)).test(path)).toBe(true);
+    });
+
+    it('should return pattern with windows path', () => {
+      const path = 'C:\\path\\to\\spec\\some.spec.js';
+      const pattern = convertPathToPattern(path, 'win32');
+      expect((new RegExp(pattern)).test(path)).toBe(true);
     });
   });
 });
