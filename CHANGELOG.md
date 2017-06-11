@@ -1,3 +1,6 @@
+## 1.1.4
+* :bug: show unexpected error if jest process failed
+
 ## 1.1.3
 * :bug: escape characters in windows path #12
 
