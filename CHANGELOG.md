@@ -1,3 +1,7 @@
+## 1.1.5
+* :bug: fix package crash if jest process does not create a json output file
+* :bug: fix tests duration
+
 ## 1.1.4
 * :bug: show unexpected error if jest process failed
 
