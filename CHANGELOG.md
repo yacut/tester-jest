@@ -1,3 +1,6 @@
+## 1.1.6
+* :bug: fix duration rounding
+
 ## 1.1.5
 * :bug: fix package crash if jest process does not create a json output file
 * :bug: fix tests duration
