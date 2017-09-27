@@ -1,6 +1,6 @@
 'use babel';
 
-/* @flow*/
+/* @flow */
 import { join } from 'path';
 import { homedir } from 'os';
 
@@ -63,16 +63,16 @@ export const textEditor = {
   getText() {
     return 'text';
   },
-  scan(regex/* :string|RegExp*/, callback/* :()=>void*/) {
+  scan(regex/* :string|RegExp */, callback/* :()=>void */) {
     callback();
   },
-  onDidDestroy(destroy/* :any*/) {
+  onDidDestroy(destroy/* :any */) {
     this.destroy = destroy;
     return {
       dispose() {},
     };
   },
-  onDidSave(save/* :any*/) {
+  onDidSave(save/* :any */) {
     this.save = save;
     return {
       dispose() {
