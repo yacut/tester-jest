@@ -8,3 +8,4 @@ decls
 [options]
 module.system=node
 suppress_comment= \\(.\\|\n\\)*\\$FlowIgnore
+module.ignore_non_literal_requires=true
