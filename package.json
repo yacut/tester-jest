@@ -93,10 +93,10 @@
     }
   },
   "dependencies": {
-    "atom-package-deps": "4.6.0",
-    "bluebird": "3.5.0",
-    "jest-editor-support": "21.2.0",
-    "jest-test-typescript-parser": "21.2.0"
+    "atom-package-deps": "4.6.1",
+    "bluebird": "3.5.1",
+    "jest-editor-support": "22.1.3",
+    "jest-test-typescript-parser": "22.1.3"
   },
   "package-deps": [
     "tester"
@@ -109,17 +109,17 @@
     }
   },
   "devDependencies": {
-    "babel-eslint": "8.0.1",
-    "eslint": "4.7.2",
-    "eslint-config-airbnb-base": "12.0.0",
-    "eslint-plugin-flowtype": "2.36.0",
-    "eslint-plugin-import": "2.7.0",
-    "eslint-plugin-jsx-a11y": "6.0.2",
-    "eslint-plugin-react": "7.4.0",
-    "flow-bin": "0.62.0",
-    "jest": "21.2.0",
+    "babel-eslint": "8.2.1",
+    "eslint": "4.17.0",
+    "eslint-config-airbnb-base": "12.1.0",
+    "eslint-plugin-flowtype": "2.42.0",
+    "eslint-plugin-import": "2.8.0",
+    "eslint-plugin-jsx-a11y": "6.0.3",
+    "eslint-plugin-react": "7.6.1",
+    "flow-bin": "0.64.0",
+    "jest": "22.1.4",
     "mock-fs": "4.4.2",
-    "mock-require": "^2.0.2"
+    "mock-require": "^3.0.1"
   },
   "jest": {
     "testRegex": "\\.spec\\.(js|jsx)$",

@@ -1,3 +1,7 @@
+## 1.2.0
+* :arrow_up: update dependencies
+* :gift: Disable when current project doesn't use jest #17
+
 ## 1.1.6
 * :bug: fix duration rounding
 
