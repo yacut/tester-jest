@@ -7,5 +7,5 @@ decls
 
 [options]
 module.system=node
-unsafe.enable_getters_and_setters=true
 suppress_comment= \\(.\\|\n\\)*\\$FlowIgnore
+module.ignore_non_literal_requires=true
