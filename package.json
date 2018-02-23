@@ -16,6 +16,7 @@
     "tdd",
     "runner"
   ],
+  "private": true,
   "repository": "https://github.com/yacut/tester-jest",
   "bugs": {
     "url": "https://github.com/yacut/tester-jest/issues"
@@ -95,8 +96,8 @@
   "dependencies": {
     "atom-package-deps": "4.6.1",
     "bluebird": "3.5.1",
-    "jest-editor-support": "22.1.3",
-    "jest-test-typescript-parser": "22.1.3"
+    "jest-editor-support": "22.4.1",
+    "jest-test-typescript-parser": "22.4.1"
   },
   "package-deps": [
     "tester"
@@ -109,15 +110,15 @@
     }
   },
   "devDependencies": {
-    "babel-eslint": "8.2.1",
-    "eslint": "4.17.0",
+    "babel-eslint": "8.2.2",
+    "eslint": "4.18.1",
     "eslint-config-airbnb-base": "12.1.0",
-    "eslint-plugin-flowtype": "2.42.0",
-    "eslint-plugin-import": "2.8.0",
+    "eslint-plugin-flowtype": "2.46.1",
+    "eslint-plugin-import": "2.9.0",
     "eslint-plugin-jsx-a11y": "6.0.3",
-    "eslint-plugin-react": "7.6.1",
-    "flow-bin": "0.64.0",
-    "jest": "22.1.4",
+    "eslint-plugin-react": "7.7.0",
+    "flow-bin": "0.66.0",
+    "jest": "22.4.2",
     "mock-fs": "4.4.2",
     "mock-require": "^3.0.1"
   },
