@@ -39,6 +39,19 @@ describe('tester-jest', () => {
 
       expect(hasProjectJest()).toEqual(true);
     });
+
+    it('should set hasPorjectJest to true if jest is provided in package.json even if not in devDependencies', () => {
+      atom.project.rootDirectories
+        .map(dir => dir.path.concat('/package.json'))
+        .forEach((path) => {
+          mockRequire(path, { dependencies: { jest: '1.0' } });
+          mockFs({ [path]: {} });
+        });
+
+      activate();
+
+      expect(hasProjectJest()).toEqual(true);
+    });
   });
 
   describe('provideTester', () => {
