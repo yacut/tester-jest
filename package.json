@@ -2,7 +2,7 @@
   "name": "tester-jest",
   "main": "./lib/tester-jest",
   "author": "yacut",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "description": "Jest test runner provider for the interactive tester",
   "keywords": [
     "test",
