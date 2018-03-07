@@ -91,6 +91,11 @@
       "title": "CI environment for own commands in create-react",
       "type": "boolean",
       "default": false
+    },
+    "overrideNodePath": {
+      "title": "Should override the node path to `cwd`?",
+      "type": "boolean",
+      "default": true
     }
   },
   "dependencies": {
@@ -111,7 +116,7 @@
   },
   "devDependencies": {
     "babel-eslint": "8.2.2",
-    "eslint": "4.18.1",
+    "eslint": "4.18.2",
     "eslint-config-airbnb-base": "12.1.0",
     "eslint-plugin-flowtype": "2.46.1",
     "eslint-plugin-import": "2.9.0",
